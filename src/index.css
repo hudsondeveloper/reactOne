@@ -1,0 +1,13 @@
+body {
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  font-family: Oswald;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+}
