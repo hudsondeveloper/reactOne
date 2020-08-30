@@ -37,7 +37,7 @@ export default (props) => (
         <CondicionalComIf numero={10} />
       </Card>
       <Card titulo="Condicional" color="#69D2E7">
-        <Condicional numero={11} />
+        <Condicional numero={8} />
       </Card>
       <Card titulo="Repetição" color="#69D2E7">
         <Repeticao />

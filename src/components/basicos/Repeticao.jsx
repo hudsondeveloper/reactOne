@@ -3,13 +3,11 @@ import produtos from "../../data/products";
 
 export default (props) => {
   function getProdutosListItem() {
-    return produtos.map((prod) => {
-      return (
-        <li key={prod.id}>
-          {prod.id} - {prod.name} - R$ {prod.preco}
-        </li>
-      );
-    });
+    return produtos.map((prod) => (
+      <li key={prod.id}>
+        {prod.id} - {prod.name} - R$ {prod.preco}
+      </li>
+    ));
   }
 
   return (
